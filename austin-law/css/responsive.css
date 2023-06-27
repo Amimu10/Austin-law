@@ -1,0 +1,185 @@
+
+
+@media screen and (max-width: 991px) {
+    /* body {
+        margin-top: -1px;
+    /* } */
+     .header{
+        padding: 15px 0 ;
+        position: sticky;
+        width: 100%;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+        background-color: #fff;
+        
+     }
+    .logo-nav{
+        padding-bottom: 20px 20px;
+        margin-bottom: -45px;
+      }
+
+
+    a.logo {
+        max-width: 100px;
+    }
+    
+    .mobile-bars{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+    .contact-icon{
+      margin-right: 45px;
+      line-height: 1px;
+      font-size: 32px;
+      color: #035992;
+    }
+
+    .fa-phone-alt::before, .fa-phone-flip::before {
+      content: "";
+    }
+    .mobile-bars a {
+        display: block;
+        width: 40px;
+    }
+
+    .mobile-bars a> span {
+        background-color: #035992;
+        border-radius: 2px;
+        display: block;
+        height: 6px;
+        margin: 5px 0;
+        width: 40px;
+        transition: all 0.3s;
+    }
+
+    body.menu-open .mobile-bars a> span:first-child {
+        margin-top: 16px;
+        transform: rotate(50deg);
+        height: 5px;
+    }
+
+   
+    body.menu-open .mobile-bars a> span:last-child {
+        margin-top: -10px;
+        transform: rotate(-50deg);
+        height: 5px;
+      }
+    body.menu-open .mobile-bars a> span:nth-child(2) {
+        display: none;
+    }
+
+    body.menu-open .logo {
+        display: none;
+    }
+
+    .main-menu ul {
+        margin-left: inherit;
+    }
+
+    .main-menu ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 22px;
+    }
+
+    .main-menu ul li a{
+        color: #333333;
+    }
+
+    .container{
+        padding: 24px 34px;
+    }
+    .header-top{
+        display: none;
+    }
+    
+      .banner .right .info {
+        margin: 0;
+
+      
+      }
+
+      .banner {
+        background-image: url(../images/banner/bg.png);
+        background-repeat: no-repeat;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        background-position: top right -14% ;
+        background-size: 100%;
+        padding-top: 130px;
+        padding-bottom: 135px;
+        background-color: #0e324a;
+         
+        }
+
+        .banner .left h1{
+          font-size: 44px;
+          
+        }
+      .banner .men {
+        width: 230px;
+        height: 250px;
+        margin-left: 180px;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+
+      }
+      
+      .banner .right .info {
+        position: relative;
+        background: #fff;
+        width: 165px;
+        margin-top: 230px;
+        margin-left: -435px;
+        height: 68px;
+        padding-top: 12px 0 0 18px;
+      
+      }
+
+      ul.logo-list{
+      display: flex;
+      flex-wrap: wrap;
+      }
+
+      ul.logo-list li:nth-child(3), ul.logo-list li:nth-child(4){
+        margin-top: 75px;
+      } 
+
+    
+      .single-footer{
+      margin-bottom: 22px;
+      
+      }
+      
+  
+    }
+
+
+
+@media screen and (max-width: 767px) {
+/* 
+
+/* 
+.Over_20_Years_Experience_in_Utah_Probate___Esta {
+  font-size: 30px;
+  font-family: "Myriad Pro";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  -moz-transform: matrix( 1.00002612720941,0,0,1.00006222243036,0,0);
+  -webkit-transform: matrix( 1.00002612720941,0,0,1.00006222243036,0,0);
+  -ms-transform: matrix( 1.00002612720941,0,0,1.00006222243036,0,0);
+  position: absolute;
+  left: 398.952px;
+  top: 1467.393px;
+  z-index: 128;
+} */
